@@ -11,5 +11,8 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
   },
-  "name": "but-rt-s2-r209"
+  "name": "but-rt-s2-r209",
+  "devDependencies": {
+    "playwright-chromium": "^1.19.2"
+  }
 }
