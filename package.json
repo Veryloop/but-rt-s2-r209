@@ -13,6 +13,7 @@
   },
   "name": "but-rt-s2-r209",
   "devDependencies": {
-    "playwright-chromium": "^1.19.2"
+    "playwright-chromium": "^1.19.2",
+    "@iconify-json/mdi": "*"
   }
 }

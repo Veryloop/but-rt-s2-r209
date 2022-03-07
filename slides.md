@@ -7,6 +7,9 @@ lineNumbers: false
 drawings:
   persist: false
 title: BUT R&T R209
+fonts:
+  sans: 'Helvetica Neue,Robot'
+  local: 'Helvetica Neue'
 ---
 
 # Développement Web
@@ -31,19 +34,21 @@ Initiation au développement Web
 ---
 
 # Sommaire : Cours
+Introduction au protocole HTTP et génératrion de page Web.
+
 - Protocol HTTP
 - Requète HTTP
 - Clients et Serveur Web
+- Service Web : API HTTP, REST, GraphQL
 - Langage Frontend : HTML, CSS, JavaScript
 - Utilisation d'un framework CSS
 - Langage Backend : PHP
-- Service Web : API HTTP, REST, GraphQL
 - Persistance des données : MariaDB
 - Outil de versionning de code
 
 ---
 
-# Sommaire: TD
+# Sommaire : TD
 Construction d'un outil web dédié aux métiers réseaux
 
 Déroulement des séances :
@@ -54,7 +59,7 @@ Déroulement des séances :
 
 ---
 
-# Sommaire: TP
+# Sommaire : TP
 Sujet libre
 
 Consignes :
@@ -66,12 +71,80 @@ Consignes :
 - Authentifier les utilisateurs "admin" de votre site web
 
 ---
-
-# Le protocole HTTP
+layout: center
+---
+# HTTP
 
 ---
 
-# Requète HTTP classique
+# Le protocole HTTP
+
+HyperText Transfer Protocol
+
+- Protocole Client-Serveur consue pour le format HTML afin de créer le World Wide Web
+- Créer pour ameliorer FTP
+- Version HTTP/0.9 : 1990, pas d'entête et une seule methode, GET
+- Version HTTP/1 en 1996, introduit la notion d'entête et ajoute 2 méthodes, HEAD, POST
+
+<div style="height: 50px"></div>
+
+___Entête d'une requète HTTP/1___
+```ts {0|1|2-4|all}
+GET /page.html HTTP/1.0
+Host: example.com
+Referer: http://example.com/
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.1.1) Gecko/20060601 Firefox/2.0.0.1 (Ubuntu-edgy)
+```
+
+<img src="images/www.png" width="100" style="position: absolute; top: 110px; right: 80px;"/>
+
+---
+
+# Requète HTTP GET
+
+<mdi-desktop-tower-monitor class="text-4xl text-green-100"/>
+<arrow x1="160" y1="120" x2="800" y2="120" color="#564" width="3"/>
+<mdi-server style="position: absolute; top: 90px; right: 70px;" class="text-4xl text-green-100"/>
+
+```ts
+GET /page.html HTTP/1.0
+Host: example.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.1.1) Gecko/20060601 Firefox/2.0.0.1 (Ubuntu-edgy)
+```
+
+<div style="height: 20px"></div>
+
+
+<mdi-desktop-tower-monitor class="text-4xl text-green-100"/>
+<arrow x1="800" y1="235" x2="160" y2="235" color="#564" width="3"/>
+<mdi-server style="position: absolute; top: 210px; right: 70px;" class="text-4xl text-green-100"/>
+
+```ts {0|all}
+HTTP/1.0 200 OK
+Server: nginx
+```
+
+```html {0|all}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ma page de test</title>
+  </head>
+  <body>
+    <img src="images/firefox-icon.png" alt="Mon image de test">
+  </body>
+</html>
+```
+
+<style>
+  .slidev-code{
+    margin: 0 !important;
+    padding: 0!important;
+  }
+</style>
+
 
 ---
 
