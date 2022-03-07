@@ -74,7 +74,60 @@ Consignes :
 layout: center
 ---
 # HTTP
+---
 
+# Le protocole HTTP
+
+<div class="flex" style="padding-top: 30px">
+  <ul>
+    <li>Application</li>
+    <li>Présentation</li>
+    <li>Session</li>
+    <li>Transport</li>
+    <li>Réseau</li>
+    <li>Liaison de données</li>
+    <li>Pysique</li>
+  </ul>
+  <ul style="width: 190px;">
+    <li style="height: 133px;">
+      <div>HTTP</div>
+      <div style="transform: translateY(-10px);">----------------------</div>
+      <div style="transform: translateY(5px);">----------------------</div>
+      <div>TLS (si HTTPS)</div>
+    </li>
+  </ul>
+  <ul>
+    <li style="height: 133px; padding-top: 50px;">Application</li>
+    <li>Transport</li>
+    <li>Réseau</li>
+    <li>Liaison de données</li>
+    <li>Pysique</li>
+  </ul> 
+</div>
+
+<style>
+  .flex{
+    margin: auto;
+    padding: 0;
+    width: 700px;
+    justify-content: space-between;
+  }
+  li{
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    margin-left: 0 !important;
+    text-align: center;
+    padding: 0 0 4px 0;
+    padding-left: 10px  !important;
+    padding-right: 10px  !important;
+    list-style: none;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+</style>
 ---
 
 # Le protocole HTTP
@@ -85,8 +138,9 @@ HyperText Transfer Protocol
 - Créer pour ameliorer FTP
 - Version HTTP/0.9 : 1990, pas d'entête et une seule methode, GET
 - Version HTTP/1 en 1996, introduit la notion d'entête et ajoute 2 méthodes, HEAD, POST
+- TCP/80 et TCP/443
 
-<div style="height: 50px"></div>
+<div style="height: 30px"></div>
 
 ___Entête d'une requète HTTP/1___
 ```ts {0|1|2-4|all}
@@ -100,11 +154,31 @@ User-Agent: Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.1.1) Gecko/20060601 Fire
 
 ---
 
+# Format d'une requète HTTP
+Différents formats d'Uniform Resource Locator
+
+**URL** : *"Chaîne de caractères uniforme qui permet d'identifier une ressource du World Wide Web"*
+
+URL classique
+```bash
+#Pour la plus par des serveurs Web, par defaut, un "/" est équivalent à "index.html". Cette options est configurable.
+http://example.com/
+http://example.com/index.html
+```
+
+URL avec paramètre
+```bash
+#On demande au serveur de nous retourner le résultat du script nommé "index.php".
+http://example.com/index.php?action=testvariable
+```
+
+---
+
 # Requète HTTP GET
 
-<mdi-desktop-tower-monitor class="text-4xl text-green-100"/>
-<arrow x1="160" y1="120" x2="800" y2="120" color="#564" width="3"/>
-<mdi-server style="position: absolute; top: 90px; right: 70px;" class="text-4xl text-green-100"/>
+<mdi-desktop-tower-monitor class="text-4xl text-black-100"/>
+<arrow x1="160" y1="120" x2="800" y2="120" class="text-black-100" width="3"/>
+<mdi-server style="position: absolute; top: 90px; right: 70px;" class="text-4xl text-black-100"/>
 
 ```ts
 GET /page.html HTTP/1.0
@@ -115,9 +189,9 @@ User-Agent: Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.1.1) Gecko/20060601 Fire
 <div style="height: 20px"></div>
 
 
-<mdi-desktop-tower-monitor class="text-4xl text-green-100"/>
-<arrow x1="800" y1="235" x2="160" y2="235" color="#564" width="3"/>
-<mdi-server style="position: absolute; top: 210px; right: 70px;" class="text-4xl text-green-100"/>
+<mdi-desktop-tower-monitor class="text-4xl text-black-100"/>
+<arrow x1="800" y1="235" x2="160" y2="235"  class="text-black-100"  width="3"/>
+<mdi-server style="position: absolute; top: 210px; right: 70px;" class="text-4xl text-black-100"/>
 
 ```ts {0|all}
 HTTP/1.0 200 OK
@@ -172,6 +246,24 @@ Server: nginx
 ---
 
 # Clients HTTP : cURL
+
+```sh
+bob@laptop>curl https://www.perdu.com
+```
+```html
+<html>
+  <head>
+    <title>Vous Etes Perdu ?</title>
+  </head>
+  <body>
+    <h1>Perdu sur l'Internet ?</h1>
+    <h2>Pas de panique, on va vous aider</h2>
+    <strong>
+      <pre>    * <----- vous &ecirc;tes ici</pre>
+    </strong>
+  </body>
+</html>
+```
 
 ---
 
