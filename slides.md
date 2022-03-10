@@ -25,11 +25,13 @@ Initiation au développement Web
 ---
 
 # Sommaire
+Déroulement du module
 
-#### 2 cours (2h)
-#### 4 travaux dirigés (6h)
-#### 3 travaux pratiques (9h)
-#### Évaluation : présentation de votre projet
+- 2 cours (2h)
+- 4 travaux dirigés (6h)
+- 3 travaux pratiques (9h)
+- Évaluation : présentation de votre projet
+
 
 ---
 
@@ -178,6 +180,11 @@ Server: nginx
 # Clients HTTP : Navigateurs
 
 ---
+layout: center
+---
+# Frontend
+
+---
 
 # Langages Web frontend
 
@@ -202,8 +209,146 @@ ___
 
 ---
 
-# Langages Web backend
+# HTML
+Représente le contenu de la page et sa structure
 
+Liste non exhaustive des balises HTML natives
+```html 
+<head>, <h1>, <h2>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>
+```
+
+Mettre des commentaires de le code
+```html
+<!-- commentaires -->
+```
+
+---
+
+# HTML
+Règles d'imbrications
+
+Les balises doivent être imperativement fermées pour que le code soit valide.
+
+```html
+<!-- exemple valide -->
+<div>
+  <article>
+    <h3>Titre #1</h3>
+    <p>Super text qui veux dire quelque chose</p>
+  </article>
+  ....
+</div>
+```
+
+```html
+<!-- exemple invalide -->
+<p>Super text qui <strong>veux dire quelque chose</p></strong>
+```
+
+Élément sans contenu 
+```html
+<img src="https://source.unsplash.com/collection/94734566/1920x1080" />
+```
+
+---
+
+# HTML
+
+---
+
+# CSS
+
+---
+
+# JS
+
+
+---
+layout: center
+---
+# Backend
+
+---
+
+# Échanges client-serveur au chargement d'un site web
+
+
+---
+
+# Introduction au web dynamique
+Génération de code HTML par script serveur 
+
+Lors d'un appel HTTP le serveur Web ne vas pas seulement se contenter de renvoyer un fichier statique.
+
+Suivant la configuration du serveur web, les requètes HTTP vons declancher l'éxécution de scripts qui généreront du HTML à destination du client Web.
+
+Liste non exhaustive des languages / frameworks utilisés pour créer des sites webs dynamiques.
+- CGI
+- Java / Spring
+- PHP / Symfony
+- Go / Gin
+- C# / ASP.NET
+- JS / NodeJS + Express
+
+---
+
+# Introduction au web dynamique
+Configuration du serveur nginx pour executer des scripts PHP
+
+<mdi-desktop-tower-monitor class="text-7xl text-gray-200" style="position: absolute; top: 140px;"/>
+
+<arrow x1="180" y1="170" x2="530" y2="170" class="text-gray-200" width="2"/>
+<arrow x1="530" y1="200" x2="180" y2="200" class="text-gray-200" width="2"/>
+
+<mdi-server class="text-7xl text-gray-200" style="position: absolute; top: 140px; right: 300px;" />
+
+<arrow x1="700" y1="170" x2="790" y2="170" class="text-gray-200" width="2"/>
+<arrow x1="790" y1="200" x2="700" y2="200" class="text-gray-200" width="2"/>
+
+<mdi-language-php class="text-7xl text-gray-200" style="position: absolute; top: 140px; right: 70px;" />
+
+
+---
+
+# PHP
+
+---
+layout: center
+---
+# Sécurité
+
+---
+
+# Sensibilisation a la sécurité du Web : XSS
+
+---
+
+# Sensibilisation a la sécurité du Web : SQLi
+
+---
+layout: center
+---
+# TD
+
+---
+
+# TD1 : Mise en place de l'environnement
+
+---
+
+# TD1 : Développement de l'interface Web
+
+---
+
+# TD2 : 
+
+---
+
+# TD3 : 
+
+---
+
+# TD4 : 
 
 ---
 layout: center
