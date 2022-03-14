@@ -102,7 +102,52 @@ User-Agent: Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.1.1) Gecko/20060601 Fire
 
 ---
 
-# Requète HTTP GET
+# Le protocole HTTP
+Codes de retour
+
+Les codes retour sont envoyé par le seveur en reponse a un client HTTP.<br/>
+Ils donnent des indications sur l'etat de le réponse.
+
+1xx - Information
+2xx - Succès
+3xx - Redirection
+4xx - Erreur du client HTTP
+5xx - Erreur du serveur / du serveur d'application
+
+200 - OK
+300 - 
+302 - 
+401 - 
+403 - 
+404 - 
+418 - 
+500 - 
+
+
+[Liste de tout les codes retour](https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP)
+
+---
+
+# Le protocole HTTP
+Les Headers courrant
+
+- Content-Encoding : The type of encoding used on the data. See HTTP compression.	Content-Encoding: gzip	Permanent	
+- Content-Length : The length of the request body in octets (8-bit bytes).	Content-Length: 348
+- Accept : Media type(s) that is/are acceptable for the response. See Content negotiation.	Accept: text/html
+- Cookie : An HTTP cookie previously sent by the server with Set-Cookie (below).	Cookie: $Version=1; Skin=new;
+- Origin : 
+- Host : Host: en.wikipedia.org:8080
+---
+
+# Le protocole HTTP
+Les Headers : Cookies
+
+- Cookies technique (ex: session PHP)
+- Cookies utilisés pour le tracage
+
+---
+
+# Requète HTTP : GET
 
 <mdi-desktop-tower-monitor class="text-4xl text-green-100"/>
 <arrow x1="160" y1="120" x2="800" y2="120" color="#564" width="3"/>
@@ -147,24 +192,44 @@ Server: nginx
   }
 </style>
 
+---
+
+# Requète HTTP : POST
 
 ---
 
 # Clients et serveurs Web
 
 <div grid="~ cols-2 gap-2" m="-t-2">
-
   <div>
-    <h4>Clients</h4>
-
-      - cURL
-      - Firefox
-      - Chrome    
+    <h3>Clients</h3>
+    <p>On peux distinguer deux types de client Web :<br/>CLI, Graphique</p>
+    <p style="text-align: justify;">Un client Web doit etre capable de contacter un serveur en utilisant 
+    le proctole HTTP, si c'est un client graphique il doit etre en mesure
+    d'ineterpreter les langagues frontend</p>
   </div>
-
   <div>
-    <h4>Serveurs</h4>  
-  
+    <h3>Serveurs</h3>  
+    <p style="text-align: justify;">Un serveur Web doit etre capable de repondre a des requetes HTTP</p>
+  </div>
+</div>
+
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+  <div>
+
+    Quelques clients connus :
+      - wget
+      - cURL
+      - lynx
+      - Firefox
+      - Google Chrome
+      - Microsoft Edge
+      - Safary
+  </div>
+  <div>
+
+    Quelques serveurs connus :
       - httpd
       - nginx
       - apache2
@@ -217,7 +282,7 @@ Liste non exhaustive des balises HTML natives
 <head>, <h1>, <h2>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>
 ```
 
-Mettre des commentaires de le code
+Mettre des commentaires dans le code
 ```html
 <!-- commentaires -->
 ```
@@ -307,10 +372,77 @@ Configuration du serveur nginx pour executer des scripts PHP
 
 <mdi-language-php class="text-7xl text-gray-200" style="position: absolute; top: 140px; right: 70px;" />
 
+---
+
+# Introduction au web dynamique
+Communiquer avec une base de données
+
+---
+
+# Introduction aux Web Service
+Définition
+
+---
+
+# Introduction aux Web Service
+Mise en place
 
 ---
 
 # PHP
+Présentation
+
+PHP : acronyme récursif pour PHP Hypertext Preprocessor
+- Langage de scripts généraliste
+- Open Source
+- Spécialement conçu pour le développement d'applications web
+
+[Listes des fonctionnalitées de PHP](https://www.php.net/manual/fr/funcref.php)
+
+---
+
+# PHP
+Fonctionnalités
+
+---
+
+# PHP
+Gérer une session utilisateur
+
+---
+
+# PHP
+Ecrire un script 
+
+---
+
+# PHP
+Traiter une requete Web
+
+---
+
+# PHP
+Créer un Web Service
+
+---
+
+# PHP
+Utiliser une base de données SQL
+
+---
+
+# PHP
+Programmation Orienté Objet (POO)
+
+---
+
+# PHP
+Le moteur de templates Twig
+
+---
+
+# PHP
+Générer un PDF
 
 ---
 layout: center
@@ -358,3 +490,6 @@ class: text-center
 # Initiation au développement Web
 
 [GitHub](https://github.com/Veryloop/but-rt-s2-r209)
+
+Sources: 
+https://www.php.net
