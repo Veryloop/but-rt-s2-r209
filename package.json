@@ -9,11 +9,12 @@
     "@slidev/cli": "^0.28.9",
     "@slidev/theme-bricks": "^0.0.2",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "prism-theme-vars": "^0.2.2"
   },
   "name": "but-rt-s2-r209",
   "devDependencies": {
-    "playwright-chromium": "^1.19.2",
-    "@iconify-json/mdi": "*"
+    "@iconify-json/mdi": "*",
+    "playwright-chromium": "^1.19.2"
   }
 }
