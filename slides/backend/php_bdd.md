@@ -1,6 +1,5 @@
-
 # Introduction au web dynamique
-Comprendre où est executé PHP
+Communiquer avec une base de données en PHP
 
 <mdi-desktop-tower-monitor class="text-7xl text-gray" style="position: absolute; top: 140px;"/>
 <p style="position: absolute; top: 220px; left: 35px;">Navigateur web</p>
@@ -17,41 +16,27 @@ Comprendre où est executé PHP
 <mdi-language-php class="text-7xl text-gray" style="position: absolute; top: 140px; right: 70px;" />
 <p style="position: absolute; top: 220px; right: 60px;">Serveur PHP</p>
 
-<div style="position: absolute; margin-top: 140px; margin-left:530px;">
+<arrow x1="880" y1="270" x2="880" y2="360" class="text-gray" width="2"/>
+<arrow x1="850" y1="360" x2="850" y2="270" class="text-gray" width="2"/>
+
+<mdi-database class="text-7xl text-gray" style="position: absolute; top: 370px; right: 70px;" />
+<p style="position: absolute; top: 450px; right: 45px;">Serveur MariaDB</p>
+
+<div style="margin-top: 170px; margin-right:150px;">
+
 
 ```php
-#index.php
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Ma page de test</title>
-    <link href="style.css" rel="stylesheet"/>
-    <script src="app.js"></script>
-  </head>
-  <body>
+<body>
     <h1>Titre <?php echo("hello"); ?></h1>
-  </body>
-</html>
-```
-  
-</div>
-<div style="position: absolute; margin-top: 140px;">
-  
-```html
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Ma page de test</title>
-    <link href="style.css" rel="stylesheet"/>
-    <script src="app.js"></script>
-  </head>
-  <body>
-    <h1>Titre hello</h1>
-  </body>
-</html>
+    <p>Votre prénom est :
+    <?php
+        $mysqli = mysqli_connect("192.168.1.23", "user", "password", "database");
+        $res = mysqli_query($mysqli, "SELECT username AS name FROM users");
+        $row = mysqli_fetch_assoc($res);
+        echo $row['name'];
+    ?>
+    </p>
+</body>
 ```
 
 </div>
-

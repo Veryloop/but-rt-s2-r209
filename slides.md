@@ -125,7 +125,7 @@ src: slides/backend/php_runtime.md
 ---
 
 ---
-src: slides/backend/flux_bdd.md
+src: slides/backend/php_bdd.md
 ---
 
 ---
@@ -133,7 +133,39 @@ src: slides/backend/php/intro.md
 ---
 
 ---
+src: slides/backend/php/communaute.md
+---
+
+---
 src: slides/backend/php/fonctionnalites.md
+---
+
+---
+src: slides/backend/php/types_liste.md
+---
+
+---
+src: slides/backend/php/types_bool.md
+---
+
+---
+src: slides/backend/php/types_int.md
+---
+
+---
+src: slides/backend/php/types_float.md
+---
+
+---
+src: slides/backend/php/types_string.md
+---
+
+---
+src: slides/backend/php/types_array.md
+---
+
+---
+src: slides/backend/php/types_other.md
 ---
 
 ---
