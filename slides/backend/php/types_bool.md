@@ -1,14 +1,37 @@
 # PHP
 Types de variable : Booléen
 
-TRUE ou FALSE (insensible à la casse)
-Liste exhaustive des valeurs FALSE :
-FALSE
-Entier 0
-Flottant 0.0
-Chaîne vide "" et chaîne "0"
-Tableau vide
-Objet vide
-Null
-Liste des valeurs TRUE :
-Tout le reste
+Un booléen est insensible à la casse : true, TRUE, false, FALSE
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+    <div>
+        <p>Liste exhaustive des valeurs FALSE :</p>
+        <ul> 
+            <li>FALSE</li>
+            <li>Entier 0</li>
+            <li>Flottant 0.0</li>
+            <li>Chaîne vide "" et chaîne "0"</li>
+            <li>Tableau vide</li>
+            <li>Objet vide</li>
+            <li>Null</li>
+        </ul>
+    </div>
+    <div>
+        <p>Liste des valeurs TRUE</p>
+         <ul> 
+            <li>Tout le reste</li>
+        </ul>
+    </div>
+</div>
+
+
+<div style="position: absolute; top: 300px; right: 80px; width: 400px;">
+
+```php
+php > print [] == false;
+1
+php > print '0' == false;
+1
+```
+
+</div>
