@@ -169,9 +169,12 @@ src: slides/backend/php/types_other.md
 ---
 
 ---
+src: slides/backend/php/shell.md
+---
 
-# PHP
-Ecrire un script 
+---
+src: slides/backend/php/script.md
+---
 
 ---
 
