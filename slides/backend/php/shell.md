@@ -2,7 +2,7 @@
 Utiliser le shell PHP
 
 ```ts
-max@rick~> php -a                                                                                                       
+max@rick~> php -a
 Interactive shell
 
 php >

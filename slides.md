@@ -149,11 +149,7 @@ src: slides/backend/php/types_bool.md
 ---
 
 ---
-src: slides/backend/php/types_int.md
----
-
----
-src: slides/backend/php/types_float.md
+src: slides/backend/php/types_nombre.md
 ---
 
 ---
