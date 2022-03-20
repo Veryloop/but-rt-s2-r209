@@ -1,2 +1,2 @@
 # PHP
-Types de variable : Tableau
+Type de variable : Tableau

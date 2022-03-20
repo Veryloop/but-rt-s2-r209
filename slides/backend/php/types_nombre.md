@@ -10,14 +10,13 @@ Types de variable : Entier, Flottant
         <p>Définition hexadécimale : précéder le nombre de 0x
         <br/>Ex : 0x1A équivalent à 26 en décimal</p>
         <p>Capacité : entier signé de 32 ou 64 bits (selon l'OS)</p>
-        <p>Pas de division entière  : 1/2 renvoie 0.5 et pas 0
-        Conversion en entier : (int) ou (integer)</p>
+        <p>Pas de division entière  : 1/2 renvoie 0.5 et pas 0</p>
     </div>
     <div>
         <h3>Nombre à virgule flottante</h3>
         <ul>
             <li>Exemple : 1.23</li>
-            <li>Précision : <code class="language-php">floor((0.1+0.7)*10)</code> retourne 7</li>
+            <li>Précision : <code class="language-php">floor((0.1+0.7)*10)</code>retourne 7</li>
             <li>Faire attention aux comparaisons de flottants</li>
         </ul> 
     </div>

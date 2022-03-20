@@ -8,7 +8,7 @@
     <li>Transport</li>
     <li>Réseau</li>
     <li>Liaison de données</li>
-    <li>Pysique</li>
+    <li>Physique</li>
   </ul>
   <ul style="width: 190px;">
     <li style="height: 133px;">
@@ -23,7 +23,7 @@
     <li>Transport</li>
     <li>Réseau</li>
     <li>Liaison de données</li>
-    <li>Pysique</li>
+    <li>Physique</li>
   </ul> 
 </div>
 

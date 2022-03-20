@@ -2,13 +2,13 @@
 
 HyperText Transfer Protocol
 
-- Protocole Client-Serveur consue pour le format HTML afin de créer le World Wide Web
-- Créer pour ameliorer FTP
+- Protocole Client-Serveur conçu pour le format HTML afin de créer le World Wide Web
+- Créer pour améliorer FTP
 - Version HTTP/0.9 : 1990, pas d'entête et une seule methode, GET
 - Version HTTP/1 en 1996, introduit la notion d'entête et ajoute 2 méthodes, HEAD, POST
 - TCP/80 et TCP/443
 
-Requète HTTP/1
+Requête HTTP/1
 ```http {0|1|all}
 GET /page.html HTTP/1.0
 Host: example.com

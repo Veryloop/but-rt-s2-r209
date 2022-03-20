@@ -1,9 +1,9 @@
 # PHP
-Types de variable : Chaîne de caractères
+Type de variable : Chaîne de caractères
 
 - Pas de limite de taille
 - Le caractère " . " permet la concaténation
-- Différence en " et '
+- Différence entre " et '
 
 ```php
 php > $test = "Hello";

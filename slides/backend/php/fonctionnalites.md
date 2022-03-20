@@ -1,9 +1,9 @@
 # PHP
 Fonctionnalités
 
-- Se connecter a une base donnée et executer des requetes
+- Se connecter à une base donnée et exécuter des requêtes
 - Envoyer des mails
-- Se connecter en SNMP a des équipement réseaux
+- Se connecter en SNMP à des équipements réseaux
 
 
 <div grid="~ cols-2 gap-2" m="-t-2" style="margin-top: 20px">

@@ -225,11 +225,11 @@ layout: center
 
 ---
 
-# Sensibilisation a la sécurité du Web : XSS
+# Sensibilisation à la sécurité du Web : XSS
 
 ---
 
-# Sensibilisation a la sécurité du Web : SQLi
+# Sensibilisation à la sécurité du Web : SQLi
 
 ---
 layout: center

@@ -8,7 +8,7 @@ Les balises doivent être imperativement fermées pour que le code soit valide.
 <div>
   <article>
     <h3>Titre #1</h3>
-    <p>Super text qui veux dire quelque chose</p>
+    <p>Super text qui veut dire quelque chose</p>
   </article>
   ....
 </div>
@@ -16,7 +16,7 @@ Les balises doivent être imperativement fermées pour que le code soit valide.
 
 ```html
 <!-- exemple invalide -->
-<p>Super text qui <strong>veux dire quelque chose</p></strong>
+<p>Super text qui <strong>veut dire quelque chose</p></strong>
 ```
 
 Élément sans contenu 

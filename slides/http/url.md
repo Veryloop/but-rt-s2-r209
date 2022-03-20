@@ -5,7 +5,7 @@ Différents formats d'Uniform Resource Locator
 
 URL classique
 ```bash
-#Pour la plus par des serveurs Web, par defaut, un "/" est équivalent à "index.html". Cette options est configurable.
+#Pour la plupart des serveurs Web, par défaut, un "/" est équivalent à "index.html". Cette option est configurable.
 http://example.com/
 http://example.com/index.html
 ```

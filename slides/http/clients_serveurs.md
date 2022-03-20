@@ -3,14 +3,14 @@
 <div grid="~ cols-2 gap-2" m="-t-2">
   <div>
     <h3>Clients</h3>
-    <p>On peux distinguer deux types de client Web :<br/>CLI, Graphique</p>
-    <p style="text-align: justify;">Un client Web doit etre capable de contacter un serveur en utilisant 
-    le proctole HTTP, si c'est un client graphique il doit etre en mesure
-    d'ineterpreter les langagues frontend</p>
+    <p>On peut distinguer deux types de clients Web :<br/>CLI, Graphique</p>
+    <p style="text-align: justify;">Un client Web doit être capable de contacter un serveur en utilisant 
+    le proctole HTTP, si c'est un client graphique il doit être en mesure
+    d'interpréter les langages frontend</p>
   </div>
   <div>
     <h3>Serveurs</h3>  
-    <p style="text-align: justify;">Un serveur Web doit etre capable de repondre a des requetes HTTP</p>
+    <p style="text-align: justify;">Un serveur Web doit être capable de répondre à des requêtes HTTP</p>
   </div>
 </div>
 

@@ -1,5 +1,5 @@
 # Le protocole HTTP
-Methodes
+Méthodes
 
 |||
 |-|-|
@@ -7,5 +7,5 @@ Methodes
 |POST|Envoyer une ressource|
 |PUT|Modifier une ressource|
 |DELETE|Supprimer une ressource|
-|PATCH|Modifier partielement une ressource|
-|HEAD|Obtenir simplement les headers realtif a une ressource|
+|PATCH|Modifier partiellement une ressource|
+|HEAD|Obtenir simplement les headers relatifs à une ressource|

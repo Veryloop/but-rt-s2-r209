@@ -1,6 +1,6 @@
 
 # Introduction au web dynamique
-Comprendre où est executé PHP
+Comprendre où est exécuté PHP
 
 <mdi-desktop-tower-monitor class="text-7xl text-gray" style="position: absolute; top: 140px;"/>
 <p style="position: absolute; top: 220px; left: 35px;">Navigateur web</p>
@@ -20,7 +20,6 @@ Comprendre où est executé PHP
 <div style="position: absolute; margin-top: 140px; margin-left:530px;">
 
 ```php
-#index.php
 <!DOCTYPE html>
 <html lang="fr">
   <head>
