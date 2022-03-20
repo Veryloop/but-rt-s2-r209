@@ -1,10 +1,11 @@
 # Le protocole HTTP
 Les Headers courants
 
-- Content-Encoding : The type of encoding used on the data. See HTTP compression.	Content-Encoding: gzip	Permanent	
-- Content-Length : The length of the request body in octets (8-bit bytes).	Content-Length: 348
-- Accept : Media type(s) that is/are acceptable for the response. See Content negotiation.	Accept: text/html
-- Cookie : An HTTP cookie previously sent by the server with Set-Cookie (below).	Cookie: $Version=1; Skin=new;
+- Content-Encoding : Type d'encodage utilisé pour compresser le corp de la réponse. Ex: gzip
+
+- Content-Length : Indique la taille en octets (base10) du corps de la réponse.
+- Accept : Contient les MIME types que le client sera capable d'interpréter. Ex: text/html
+- Cookie : Clés et valeurs des cookies envoyé par le client au serveur. Ex: PHPSID=dmlksdmlk;
 - Set-Cookie : Contient des cookies envoyés par le serveur qui doivent être sauvegardés par le client.
-- Origin : 
-- Host : Host: en.wikipedia.org:8080
+- Origin : Indique la provenance de la requête. Ex: https://www.google.fr/
+- Host : Contient le FQDN du serveur qu'on veux intérroger. Ex: www.google.fr

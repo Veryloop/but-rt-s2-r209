@@ -15,7 +15,7 @@
 </div>
 
 
-<div grid="~ cols-2 gap-2" m="-t-2">
+<div grid="~ cols-2 gap-2" m="-t-2" style="margin-top: 10px">
   <div>
 
     Quelques clients connus :

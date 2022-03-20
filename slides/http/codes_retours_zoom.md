@@ -3,11 +3,11 @@ Codes de retour
 
 |||
 |-|-|
-|200|Ok|
-|302||
-|401||
-|403||
-|404||
-|418||
-|500||
-|503||
+|200|Ok, succès de la requête|
+|301|Redirection permanente|
+|302|Redirection temporaire|
+|401|L'utilisateur n'est pas authentifié|
+|403|L'accès est refusé|
+|404|Ressource non trouvé|
+|500|Erreur interne de serveur|
+|503|Serveur temporairement indisponible|
