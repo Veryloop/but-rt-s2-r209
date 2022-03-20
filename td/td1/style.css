@@ -1,0 +1,12 @@
+.table{
+    width: 100%;
+}
+
+.container{
+    padding: 40px;
+}
+
+.menu{
+    display: flex !important;
+    justify-content: space-between;
+}
