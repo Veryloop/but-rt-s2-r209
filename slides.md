@@ -152,6 +152,10 @@ src: slides/frontend/js/window.md
 ---
 
 ---
+src: slides/frontend/js/window_2.md
+---
+
+---
 src: slides/frontend/js/dom.md
 ---
 
