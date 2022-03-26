@@ -58,6 +58,10 @@ src: slides/http/url.md
 ---
 
 ---
+src: slides/http/get.md
+---
+
+---
 src: slides/http/methodes.md
 ---
 
@@ -82,18 +86,19 @@ src: slides/http/clients_serveurs.md
 ---
 
 ---
-src: slides/http/get.md
----
-
----
 src: slides/http/curl.md
 ---
 
 ---
+src: slides/http/browser.md
+---
+
+---
 layout: center
+class: text-center
 ---
 # Frontend
-
+Interface utilisateur
 ---
 src: slides/frontend/intro.md
 ---
@@ -111,10 +116,51 @@ src: slides/frontend/css/intro.md
 ---
 
 ---
+src: slides/frontend/js/intro.md
+---
+
+---
+src: slides/frontend/js/link.md
+---
+
+---
+src: slides/frontend/js/variable.md
+---
+
+---
+src: slides/frontend/js/variable_code.md
+---
+
+---
+src: slides/frontend/js/condition.md
+---
+
+---
+src: slides/frontend/js/condition_swc.md
+---
+
+---
+src: slides/frontend/js/boucle.md
+---
+
+---
+src: slides/frontend/js/fonction.md
+---
+
+---
+src: slides/frontend/js/window.md
+---
+
+---
+src: slides/frontend/js/dom.md
+---
+
+---
 layout: center
+class: text-center
 ---
 # Backend
-
+La partie que l’utilisateur ne voit pas
 ---
 clicks: 7
 src: slides/backend/flux_requete.md
@@ -270,4 +316,6 @@ class: text-center
 [GitHub](https://github.com/Veryloop/but-rt-s2-r209)
 
 Sources: 
-https://www.php.net
+- https://www.php.net
+- https://grafikart.fr
+- https://developer.mozilla.org
