@@ -18,12 +18,11 @@
       <div>TLS (si HTTPS)</div>
     </li>
   </ul>
-  <ul>
+  <ul style="width: 190px;">
     <li style="height: 133px; padding-top: 50px;">Application</li>
     <li>Transport</li>
-    <li>Réseau</li>
-    <li>Liaison de données</li>
-    <li>Physique</li>
+    <li>Internet</li>
+    <li style="height: 85px; padding-top: 25px;">Accès réseau</li>
   </ul> 
 </div>
 

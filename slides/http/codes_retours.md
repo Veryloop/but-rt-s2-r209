@@ -3,6 +3,11 @@ Codes de retour
 
 Les codes retour sont envoyés par le serveur en réponse à un client HTTP.<br/>
 Ils donnent des indications sur l'état de le réponse.
+
+```http
+HTTP/1.0 200 OK
+```
+
 |||
 |-|-|
 |1xx|Information|

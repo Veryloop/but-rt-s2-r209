@@ -1,4 +1,7 @@
 # Clients HTTP : cURL
+CLI
+
+"Interface en ligne de commande, destinée à récupérer le contenu d'une ressource accessible par un réseau informatique"
 
 ```shellsession
 bob@laptop>curl https://www.perdu.com

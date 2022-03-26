@@ -1,6 +1,10 @@
 # Le protocole HTTP
 Méthodes
 
+Requête HTTP
+```http
+GET /page.html HTTP/1.0
+```
 |||
 |-|-|
 |GET|Demander une ressource|

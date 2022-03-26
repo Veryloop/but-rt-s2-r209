@@ -1,4 +1,4 @@
-# Requête HTTP : GET
+# Requête HTTP
 
 <mdi-desktop-tower-monitor class="text-4xl text-black-100"/>
 <arrow x1="160" y1="120" x2="800" y2="120" class="text-black-100" width="3"/>
