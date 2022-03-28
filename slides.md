@@ -219,6 +219,10 @@ src: slides/backend/php/variables.md
 ---
 
 ---
+src: slides/backend/php/variables_const.md
+---
+
+---
 src: slides/backend/php/types_liste.md
 ---
 
@@ -244,6 +248,14 @@ src: slides/backend/php/types_other.md
 
 ---
 src: slides/backend/php/operateur.md
+---
+
+---
+src: slides/backend/php/operateur_comp.md
+---
+
+---
+src: slides/backend/php/fonctions.md
 ---
 
 ---
