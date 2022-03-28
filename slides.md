@@ -215,6 +215,10 @@ src: slides/backend/php/fonctionnalites.md
 ---
 
 ---
+src: slides/backend/php/variables.md
+---
+
+---
 src: slides/backend/php/types_liste.md
 ---
 
@@ -239,7 +243,43 @@ src: slides/backend/php/types_other.md
 ---
 
 ---
+src: slides/backend/php/operateur.md
+---
+
+---
+src: slides/backend/php/if.md
+---
+
+---
+src: slides/backend/php/switch.md
+---
+
+---
+src: slides/backend/php/for.md
+---
+
+---
 src: slides/backend/php/shell.md
+---
+
+---
+src: slides/backend/php/pdo_conn.md
+---
+
+---
+src: slides/backend/php/pdo_select.md
+---
+
+---
+src: slides/backend/php/pdo_insert.md
+---
+
+---
+src: slides/backend/php/pdo_update.md
+---
+
+---
+src: slides/backend/php/pdo_delete.md
 ---
 
 ---
@@ -247,26 +287,28 @@ src: slides/backend/php/script.md
 ---
 
 ---
-
-# PHP
-Utiliser une base de données SQL
-Gérer une session utilisateur
-Traiter un formulaire
-
+src: slides/backend/php/session.md
 ---
 
-# PHP
-Créer un Web Service
-
+---
+src: slides/backend/php/form_get.md
 ---
 
-# PHP
-Programmation Orienté Objet (POO)
-
+---
+src: slides/backend/php/form_post.md
 ---
 
-# PHP
-Le moteur de templates Twig
+---
+src: slides/backend/php/ws.md
+---
+
+---
+src: slides/backend/php/poo.md
+---
+
+---
+src: slides/backend/php/twig.md
+---
 
 ---
 layout: center
@@ -317,5 +359,5 @@ class: text-center
 
 Sources: 
 - https://www.php.net
-- https://grafikart.fr
 - https://developer.mozilla.org
+- https://grafikart.fr
