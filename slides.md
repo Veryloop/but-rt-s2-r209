@@ -94,6 +94,15 @@ src: slides/http/browser.md
 ---
 
 ---
+clicks: 7
+src: slides/http/flux_requete.md
+---
+
+---
+src: slides/backend/ws/intro.md
+---
+
+---
 layout: center
 class: text-center
 ---
@@ -113,6 +122,10 @@ src: slides/frontend/html/imbrications.md
 
 ---
 src: slides/frontend/css/intro.md
+---
+
+---
+src: slides/frontend/css/pure.md
 ---
 
 ---
@@ -156,7 +169,19 @@ src: slides/frontend/js/window_2.md
 ---
 
 ---
+src: slides/frontend/js/dom_def.md
+---
+
+---
 src: slides/frontend/js/dom.md
+---
+
+---
+src: slides/frontend/js/async.md
+---
+
+---
+src: slides/frontend/js/fetch.md
 ---
 
 ---
@@ -165,11 +190,6 @@ class: text-center
 ---
 # Backend
 La partie que l’utilisateur ne voit pas
----
-clicks: 7
-src: slides/backend/flux_requete.md
----
-
 ---
 src: slides/backend/intro.md
 ---
@@ -230,29 +250,10 @@ src: slides/backend/php/script.md
 
 # PHP
 Utiliser une base de données SQL
-
----
-
-# PHP
 Gérer une session utilisateur
+Traiter un formulaire
 
 ---
-
-# PHP
-Traiter une requete Web
-
----
-
-# Introduction aux Web Service
-Définition
-
----
-
-# Introduction aux Web Service
-Mise en place
-
----
-
 
 # PHP
 Créer un Web Service
@@ -266,11 +267,6 @@ Programmation Orienté Objet (POO)
 
 # PHP
 Le moteur de templates Twig
-
----
-
-# PHP
-Générer un PDF
 
 ---
 layout: center
