@@ -2,7 +2,7 @@
 # JavaScript
 Le Document Object Model / DOM d'une page Web
 
-Le Modèle Objet de Document (DOM: Document object Model) est la representation objet des données qui composent la structure et le contenu d'un document sur le web. 
+Le Modèle Objet de Document (DOM: Document object Model) est la représentation en objet des données qui composent la structure et le contenu d'un document sur le web. 
 
 Le DOM représente un document HTML ou XML en mémoire.
 
@@ -10,7 +10,6 @@ Le DOM représente un document HTML ou XML en mémoire.
 <img  width="300" src="images/dom.svg" />
 </div><div>
 
-Le JavaScript éxécuté par le navigateur vas venir se "brancher" sur le DOM pour piloter la page HTML ou écouter des évenements.
+Le JavaScript exécuté par le navigateur va venir se "brancher" sur le DOM pour piloter la page HTML ou écouter des évenements.
 
 </div></div>
-

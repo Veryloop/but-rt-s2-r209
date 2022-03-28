@@ -8,6 +8,6 @@ Codes de retour
 |302|Redirection temporaire|
 |401|L'utilisateur n'est pas authentifié|
 |403|L'accès est refusé|
-|404|Ressource non trouvé|
+|404|Ressource non trouvée|
 |500|Erreur interne de serveur|
 |503|Serveur temporairement indisponible|

@@ -1,2 +1,2 @@
 # PHP
-Programmation orienté objet
+Programmation orientée objet

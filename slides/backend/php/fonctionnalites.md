@@ -40,7 +40,7 @@ echo date("M-d-Y", easter_date(2022)); //Apr-16-2022
 
 ___
 
- [Listes des fonctionnalitées de PHP](https://www.php.net/manual/fr/funcref.php)
+ [Liste des fonctionnalités de PHP](https://www.php.net/manual/fr/funcref.php)
 
 <style>
 .space{

@@ -1,5 +1,5 @@
 # PHP
-Types de variable : Entier, Flottant
+Types de variables : Entier, Flottant
 
 <div grid="~ cols-2 gap-2" m="-t-2">
     <div>

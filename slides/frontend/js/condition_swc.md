@@ -9,7 +9,7 @@ switch (b) {
     afficherlheure()
     break
   case 'vert':
-    console.log("code éxécuté si b égale 'vert'")
+    console.log("code exécuté si b égal 'vert'")
     break
   default:
     // Instructions à exécuter lorsqu'aucune des valeurs ne correspond

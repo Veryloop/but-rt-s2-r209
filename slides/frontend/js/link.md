@@ -15,7 +15,7 @@ Ecrire le code JS dans le contenu de la page HTML
 
 Indiquer aux navigateurs l'url de nos scripts
 ```html
-<!-- De préference dans la balise <head> du HTML -->
+<!-- De préférence dans la balise <head> du HTML -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap"></script>
 <script src="app.js"></script>
 ````

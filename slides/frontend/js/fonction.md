@@ -1,7 +1,7 @@
 # JavaScript
 Les fonctions
 
-Fonction nommé
+Fonction nommée
 ```js
 function carre(nombre) {
   return nombre * nombre;
@@ -9,7 +9,7 @@ function carre(nombre) {
 carre(3) // 9
 ```
 
-Fonction anonyme dans un variable
+Fonction anonyme contenue dans une variable
 ```js
 let saluer = function (nom) {
     return "Salut " + nom

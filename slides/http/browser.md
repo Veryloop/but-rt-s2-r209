@@ -2,7 +2,7 @@
 # Clients HTTP : Firefox
 Navigateur Web
 
-Deux moteurs de rendu :
+Deux moteurs de rendus :
 - SpiderMonkey / JavaScript
 - Gecko / HTML-CSS
 

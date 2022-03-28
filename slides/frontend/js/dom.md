@@ -16,7 +16,7 @@ cont.getAttribute('attribut') // Permet de récupérer la valeur d'un attribut
 liste1.style // Permet de récupérer les styles associés à l'élément
 liste1.style.fontSize = '24px' // Changer la taille de la police
 
-let d = document.createElement('div') // créer une div
-document.body.appendChild(d) // ajoute un élément à un autre
-document.body.removeChild(d) // supprime un enfant 
+let d = document.createElement('div') // Créer une div
+document.body.appendChild(d) // Ajouter un élément à un autre
+document.body.removeChild(d) // Supprimer un enfant 
 ```

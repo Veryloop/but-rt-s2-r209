@@ -1,2 +1,2 @@
 # PHP
-Types de variable : Object, Null
+Types de variables : Object, Null

@@ -1,18 +1,18 @@
 # JavaScript
 L'asynchronisme
 
-Le JavaScript est, par default, mono-thread mais asynchrone. Cela signie que les instructions ne sont PAS éxécuter les une a la suite des autres.
+Le JavaScript est, par défaut, mono-thread mais asynchrone. Cela signifie que les instructions ne sont PAS exécutées les unes à la suite des autres.
 
 <div grid="~ cols-2 gap-2" m="-t-2"><div>
 
 
 ```js
 setTimeout(function() {
-    console.log("I'm here!")
+    console.log("Je suis là")
 }, 5000);
-console.log("Where are you?");
-//Where are you?
-//I'm here!
+console.log("Où es-tu ?");
+//Où es-tu ?
+//Je suis là
 ```
 
 </div><div>
@@ -25,7 +25,7 @@ fetch('https://api.github.com/users/MaximeChartier/orgs')
 </div></div>
 
 
-Pour attendre un fonction <kbd>async</kbd> nous devont utiliser le mot réservé <kbd>await</kbd>
+Pour attendre une fonction <kbd>async</kbd> nous devons utiliser le mot réservé <kbd>await</kbd>
 
 ```js
 await fetch('https://api.github.com/users/MaximeChartier/orgs')

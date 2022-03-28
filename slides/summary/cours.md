@@ -8,4 +8,4 @@ Introduction au protocole HTTP et génératrion de page Web.
 - Langage Frontend : HTML, CSS, JavaScript
 - Utilisation d'un framework CSS
 - Langage Backend : PHP
-- Persistance des données : base de données relationnel
+- Persistance des données : base de données relationnelle

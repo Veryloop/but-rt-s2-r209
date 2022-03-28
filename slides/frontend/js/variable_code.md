@@ -9,7 +9,7 @@ Les variables
 let a = 30
 let une_variable = "hello"
 
-//Réasignation
+//Réassignation
 a = 2
 a = "Je suis une chaine maintenant !"
 
@@ -45,7 +45,7 @@ console.log(API) // https://api.rt.fr/
 
 
 
-console.log(eleve.nom) // Jean
+console.log(eleve.nom) // Foo
 console.log(eleve.notes) // [10, 4, 18]
 console.log(eleve.notes[1]) // 4
 console.log(eleve.age + 10) // 37
