@@ -275,6 +275,26 @@ src: slides/backend/php/shell.md
 ---
 
 ---
+src: slides/backend/php/script.md
+---
+
+---
+src: slides/backend/php/php_in_html.md
+---
+
+---
+src: slides/backend/php/require.md
+---
+
+---
+src: slides/backend/php/session.md
+---
+
+---
+src: slides/backend/php/ws.md
+---
+
+---
 src: slides/backend/php/form_1.md
 ---
 
@@ -284,6 +304,10 @@ src: slides/backend/php/form_2.md
 
 ---
 src: slides/backend/php/form_3.md
+---
+
+---
+src: slides/backend/php/poo.md
 ---
 
 ---
@@ -304,22 +328,6 @@ src: slides/backend/php/pdo_update.md
 
 ---
 src: slides/backend/php/pdo_delete.md
----
-
----
-src: slides/backend/php/script.md
----
-
----
-src: slides/backend/php/session.md
----
-
----
-src: slides/backend/php/ws.md
----
-
----
-src: slides/backend/php/poo.md
 ---
 
 ---
