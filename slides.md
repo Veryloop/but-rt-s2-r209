@@ -343,10 +343,40 @@ layout: center
 ---
 
 # TD1 : Mise en place de l'environnement
+VM / VSCode / Firefox
+
+- Accès VM : https://195.220.217.51:8006/
+- Documentation PureCSS : https://purecss.io/
+
+Changer le propriétaire du répertoire <kbd>/var/www/html</kbd>
+```sh
+sudo chown -R etudiant:etudiant /var/www/html
+```
 
 ---
 
 # TD1 : Développement de l'interface Web
+<img class="mx-auto" src="td/td1/screen/users.png" width="770"/>
+
+---
+
+# TD1 : Développement de l'interface Web
+<img class="mx-auto" src="td/td1/screen/equip.png" width="770"/>
+
+---
+
+# TD1 : Développement de l'interface Web
+<img class="mx-auto" src="td/td1/screen/add.png" width="770"/>
+
+---
+
+# TD1 : Développement de l'interface Web
+<img class="mx-auto" src="td/td1/screen/conf.png" width="770"/>
+
+---
+
+# TD1 : Développement de l'interface Web
+<img class="mx-auto" src="td/td1/screen/login.png" width="770"/>
 
 ---
 
