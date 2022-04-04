@@ -275,6 +275,18 @@ src: slides/backend/php/shell.md
 ---
 
 ---
+src: slides/backend/php/form_1.md
+---
+
+---
+src: slides/backend/php/form_2.md
+---
+
+---
+src: slides/backend/php/form_3.md
+---
+
+---
 src: slides/backend/php/pdo_conn.md
 ---
 
@@ -300,14 +312,6 @@ src: slides/backend/php/script.md
 
 ---
 src: slides/backend/php/session.md
----
-
----
-src: slides/backend/php/form_get.md
----
-
----
-src: slides/backend/php/form_post.md
 ---
 
 ---

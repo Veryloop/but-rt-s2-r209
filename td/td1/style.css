@@ -1,7 +1,9 @@
-.table{
-    width: 100%;
+.container{
+    margin: 1rem;
 }
 
-.container{
-    padding: 40px;
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
