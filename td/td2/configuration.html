@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD1</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Menu haut -->
+    <div class="menu">
+        <span class="pure-menu-heading">switch conf</span>
+        <a href="login.html" class="pure-menu-link">Se connecter</a>
+    </div>
+    <!-- Menu gauche + contenu page -->
+    <div class="pure-g">
+        <!-- Menu gauche -->
+        <div class="pure-u-1-8">
+            <div class="pure-menu">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item">
+                        <a href="index.html" class="pure-menu-link">Utilisateurs</a>
+                    </li>
+                    <li class="pure-menu-item pure-menu-selected">
+                        <a href="equipments_list.html" class="pure-menu-link">Équipements</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Page -->
+        <div class="pure-u-7-8">
+            <div class="container">
+                <h2>Configuration du switch #x</h2>
+                <textarea id="conf" class="pure-u-1" rows="20" readonly>
+interface FastEthernet0/0
+    ip address 192.168.100.1 255.255.255.0
+    duplex auto
+    speed auto
+    end
+                </textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

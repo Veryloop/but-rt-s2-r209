@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD1</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Menu haut -->
+    <div class="menu">
+        <span class="pure-menu-heading">switch conf</span>
+        <a href="login.html" class="pure-menu-link">Se connecter</a>
+    </div>
+    <!-- Menu gauche + contenu page -->
+    <div class="pure-g">
+        <!-- Menu gauche -->
+        <div class="pure-u-1-8">
+            <div class="pure-menu">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item pure-menu-selected">
+                        <a href="index.html" class="pure-menu-link">Utilisateurs</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="equipments_list.html" class="pure-menu-link">Équipements</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Page -->
+        <div class="pure-u-7-8">
+            <div class="container">
+                <h2>Connexion</h2>
+                <form class="pure-form pure-form-aligned">
+                    <fieldset>
+                        <div class="pure-control-group">
+                            <label for="aligned-name">Nom d'utilisateur</label>
+                            <input type="text" id="aligned-name" placeholder="username" />
+                        </div>
+                        <div class="pure-control-group">
+                            <label for="aligned-password">Mot de passe</label>
+                            <input type="password" id="aligned-password" placeholder="password" />
+                        </div>
+                        <div class="pure-controls">
+                            <button type="submit" class="pure-button pure-button-primary">Connexion</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD1</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Menu haut -->
+    <div class="menu">
+        <span class="pure-menu-heading">switch conf</span>
+        <a href="login.html" class="pure-menu-link">Se connecter</a>
+    </div>
+    <!-- Menu gauche + contenu page -->
+    <div class="pure-g">
+        <!-- Menu gauche -->
+        <div class="pure-u-1-8">
+            <div class="pure-menu">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item pure-menu-selected">
+                        <a href="index.html" class="pure-menu-link">Utilisateurs</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="equipments_list.html" class="pure-menu-link">Équipements</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Page -->
+        <div class="pure-u-7-8">
+            <div class="container">
+                <h2>Liste des utilisateurs</h2>
+                <table class="pure-table pure-table-striped table" style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nom</th>
+                            <th>SIP</th>
+                            <th>Rôle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Bob</td>
+                            <td><a href="sip:bob@pabx.local">sip:bob@pabx.local</a></td>
+                            <td>Technicien</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Alice</td>
+                            <td><a href="sip:alice@pabx.local">sip:alice@pabx.local</a></td>
+                            <td>Ingénieur réseau</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>John</td>
+                            <td><a href="sip:john@pabx.local">sip:john@pabx.local</a></td>
+                            <td>Technicien</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
