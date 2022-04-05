@@ -13,7 +13,7 @@ Le PHP peut être directement ajouté à un fichier HTML.
 </head>
 <body>
     <?php if ($_SESSION['logon']): ?>
-        Bonjour <?php echo($_SESSION['user']['surname']) ?>
+        Bonjour <?= $_SESSION['user']['surname'] ?>
     <?php else: ?>
         Veuillez vous identifier
     <?php endif ?>

@@ -311,6 +311,10 @@ src: slides/backend/php/poo.md
 ---
 
 ---
+src: slides/backend/php/poo_2.md
+---
+
+---
 src: slides/backend/php/pdo_conn.md
 ---
 
@@ -328,10 +332,6 @@ src: slides/backend/php/pdo_update.md
 
 ---
 src: slides/backend/php/pdo_delete.md
----
-
----
-src: slides/backend/php/twig.md
 ---
 
 ---

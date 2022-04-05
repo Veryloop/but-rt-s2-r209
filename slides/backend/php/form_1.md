@@ -17,6 +17,15 @@ Formulaire HTML
 
 </div><div>
 
-
+<img src="/images/form.png"  width="150">
 
 </div></div>
+
+Les formulaires peuvent être envoyés avec la méthode POST ou GET. En utilisant GET les valeurs envoyées au serveur sont transmises dans l'URL.
+
+PHP nous met à disposition deux variables spéciales contenant les valeurs d'un formulaire transmis par l'utilisateur.
+```php
+$_GET;
+$_POST;
+$_POST['username'];
+```
