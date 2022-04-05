@@ -368,31 +368,40 @@ sudo chown -R etudiant:etudiant /var/www/html
 ---
 
 # TD1 : Développement de l'interface Web
-<img class="mx-auto" src="td/td1/screen/users.png" width="770"/>
+<img class="mx-auto" src="/td/td1/screen/users.png" width="770"/>
 
 ---
 
 # TD1 : Développement de l'interface Web
-<img class="mx-auto" src="td/td1/screen/equip.png" width="770"/>
+<img class="mx-auto" src="/td/td1/screen/equip.png" width="770"/>
 
 ---
 
 # TD1 : Développement de l'interface Web
-<img class="mx-auto" src="td/td1/screen/add.png" width="770"/>
+<img class="mx-auto" src="/td/td1/screen/add.png" width="770"/>
 
 ---
 
 # TD1 : Développement de l'interface Web
-<img class="mx-auto" src="td/td1/screen/conf.png" width="770"/>
+<img class="mx-auto" src="/td/td1/screen/conf.png" width="770"/>
 
 ---
 
 # TD1 : Développement de l'interface Web
-<img class="mx-auto" src="td/td1/screen/login.png" width="770"/>
+<img class="mx-auto" src="/td/td1/screen/login.png" width="770"/>
 
 ---
 
 # TD2 : 
+
+- Charger automatiquement l'ip d'un switch depuis le JavaScript (/add_equipment.html)
+  (Slide 38/39/40)
+
+- Utiliser PHP pour éviter les répétitions de code HTML
+  (Slide 65)
+
+- Faire fonctionner le formulaire de login avec login/mdp "en dure" et utiliser la session
+  (Slide 64)
 
 ---
 
@@ -401,6 +410,17 @@ sudo chown -R etudiant:etudiant /var/www/html
 ---
 
 # TD4 : 
+
+---
+
+# Installer les outils de développement (Debian/Ubuntu)
+
+```shell
+sudo apt update
+sudo apt -y install apache2
+sudo apt -y install mariadb-server
+sudo apt -y install php libapache2-mod-php php-mysql
+```
 
 ---
 layout: center

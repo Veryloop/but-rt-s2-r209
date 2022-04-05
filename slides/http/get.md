@@ -31,7 +31,7 @@ Server: nginx
     <title>Ma page de test</title>
   </head>
   <body>
-    <img src="images/firefox-icon.png" alt="Mon image de test">
+    <img src="/images/firefox-icon.png" alt="Mon image de test">
   </body>
 </html>
 ```

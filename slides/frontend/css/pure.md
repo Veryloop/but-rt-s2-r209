@@ -11,5 +11,5 @@ PureCSS :
 - https://purecss.io/
 
 </div><div>
-<img width="400" src="images/layout.jpg" />
+<img width="400" src="/images/layout.jpg" />
 </div></div>

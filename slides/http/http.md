@@ -21,4 +21,4 @@ HTTP/1.0 200 OK
 Server: nginx
 ```
 
-<img src="images/www.png" width="100" style="position: absolute; top: 110px; right: 80px;"/>
+<img src="/images/www.png" width="100" style="position: absolute; top: 110px; right: 80px;"/>
