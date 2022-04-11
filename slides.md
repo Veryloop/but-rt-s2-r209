@@ -408,10 +408,25 @@ sudo chown -R etudiant:etudiant /var/www/html
 # TD3 : 
 Utiliser une base de données
 
+- Configurer la base de données MySQL
+  - Création de la 'database'
+  - Création des deux tables : users / switchs
+- Créer deux scripts PHP pour ajouter et supprimer un utilisateur
+  - Le nom de l'utilisateur est passé en arguments du script
+  - Le script d'ajout doit demander le mot de passe grâce à une question en ligne de commande
+- Utiliser les informations de la base de donnée dans les pages web
+  - Vérification du login/password provenant du formulaire de login
+  - Lister les utilisateurs dans le tableau HTML
+
+---
+
+# TD3 : 
+Utiliser une base de données
+
 Sur le shell Linux de la VM
 
 ```shell
-#Se connecter a la base de données de votre VM
+#Se connecter à la base de données de votre VM
 mysql -u root -p #password -> mysqlrt
 ```
 
@@ -422,7 +437,7 @@ Dans la console SQL
 show databases;
 -- Créer une nouvelle base pour notre site Web
 create database tdweb;
--- Selectionner notre base pour la configurer
+-- Sélectionner notre base pour la configurer
 use tdweb;
 ```
 

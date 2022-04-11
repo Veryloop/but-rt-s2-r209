@@ -1,6 +1,6 @@
 <div class="pure-menu">
     <ul class="pure-menu-list">
-        <li class="pure-menu-item pure-menu-selected">
+        <li class="pure-menu-item">
             <a href="index.php" class="pure-menu-link">Utilisateurs</a>
         </li>
         <li class="pure-menu-item">
