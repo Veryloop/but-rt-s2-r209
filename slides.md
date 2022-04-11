@@ -406,6 +406,25 @@ sudo chown -R etudiant:etudiant /var/www/html
 ---
 
 # TD3 : 
+Utiliser une base de données
+
+Sur le shell Linux de la VM
+
+```shell
+#Se connecter a la base de données de votre VM
+mysql -u root -p #password -> mysqlrt
+```
+
+Dans la console SQL
+
+```sql
+-- Lister les bases de données existantes
+show databases;
+-- Créer une nouvelle base pour notre site Web
+create database tdweb;
+-- Selectionner notre base pour la configurer
+use tdweb;
+```
 
 ---
 
