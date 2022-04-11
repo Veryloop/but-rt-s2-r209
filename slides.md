@@ -437,13 +437,35 @@ Dans la console SQL
 show databases;
 -- Créer une nouvelle base pour notre site Web
 create database tdweb;
+-- Créer l'utilisateur utilisé pour PHP
+create user 'php'@'localhost' identified by 'web';
+grant all privileges on tdweb.* to 'php'@'localhost';
 -- Sélectionner notre base pour la configurer
 use tdweb;
 ```
 
 ---
 
-# TD4 : 
+# TD3 : 
+Utiliser une base de données
+
+Schéma de la base
+```sql
+CREATE TABLE `users` (
+	`username` VARCHAR(20) NOT NULL,
+	`password` VARCHAR(20) NOT NULL,
+	PRIMARY KEY (`username`)
+) ENGINE=InnoDB;
+
+CREATE TABLE `switchs` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`ref` VARCHAR(20) NOT NULL,
+	`warranty` DATE NOT NULL,
+	`ip` VARCHAR(20) NOT NULL,
+	`configuration` LONGTEXT NOT NULL,
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB;
+```
 
 ---
 
