@@ -1,24 +1,11 @@
-<?php require 'head.php'; ?>
+<?php require '../helper/head.php'; ?>
 <body>
-    <!-- Menu haut -->
-    <div class="menu">
-        <span class="pure-menu-heading">switch conf</span>
-        <a href="login.html" class="pure-menu-link">Se connecter</a>
-    </div>
+    <?php require '../helper/menu_haut.php'; ?>
     <!-- Menu gauche + contenu page -->
     <div class="pure-g">
         <!-- Menu gauche -->
         <div class="pure-u-1-8">
-            <div class="pure-menu">
-                <ul class="pure-menu-list">
-                    <li class="pure-menu-item pure-menu-selected">
-                        <a href="index.html" class="pure-menu-link">Utilisateurs</a>
-                    </li>
-                    <li class="pure-menu-item">
-                        <a href="equipments_list.html" class="pure-menu-link">Équipements</a>
-                    </li>
-                </ul>
-            </div>
+            <?php require '../helper/menu_gauche.php'; ?>
         </div>
         <!-- Page -->
         <div class="pure-u-7-8">
