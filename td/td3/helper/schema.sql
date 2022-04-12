@@ -1,6 +1,8 @@
 CREATE TABLE `users` (
 	`username` VARCHAR(20) NOT NULL,
 	`password` VARCHAR(20) NOT NULL,
+	`sip` VARCHAR(100) NOT NULL,
+	`role` VARCHAR(20) NOT NULL,
 	PRIMARY KEY (`username`)
 ) ENGINE=InnoDB;
 
