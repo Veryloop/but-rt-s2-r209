@@ -11,12 +11,23 @@
         <div class="pure-u-7-8">
             <div class="container">
                 <?php if(isset($_POST['username']) && isset($_POST['password'])){ 
-                    if($_POST['username'] === "admin" && $_POST['password'] === "1234"){
-                        $_SESSION['logon'] = true; } else {
+                    include('../helper/connection.php');
+                    $query = $pdo->prepare('SELECT password FROM users WHERE username=:username');
+
+                    $success = $query->execute([
+                        "username" => $_POST['username']
+                    ]);
+                    $user = $query->fetch(PDO::FETCH_ASSOC);
+                    if($user){
+                        if($_POST['password'] === $user['password']){
+                            $_SESSION['logon'] = true;
+                        } else {
                             echo "username/password erroné"; 
                         }
+                    } else {
+                        echo "username/password erroné"; 
                     }
-                ?>
+                }?>
                 <?php if(isset($_SESSION['logon']) && $_SESSION['logon'] === true): ?> 
                     Vous êtes connecté !<br>
                     <a href="/logout.php" class="pure-button pure-button-primary">Se deconnecter</a>

@@ -21,24 +21,20 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <?php 
+                            include('../helper/connection.php');
+                            $query = $pdo->query('SELECT username, sip, role FROM users'); 
+                            $users = $query->fetchAll(PDO::FETCH_ASSOC);
+                        ?>
+
+                        <?php foreach ($users as $key => $user): ?>
                         <tr>
-                            <td>1</td>
-                            <td>Bob</td>
-                            <td><a href="sip:bob@pabx.local">sip:bob@pabx.local</a></td>
-                            <td>Technicien</td>
+                            <td><?= $key ?></td>
+                            <td><?= $user['username'] ?></td>
+                            <td><a href="<?= $user['sip'] ?>"><?= $user['sip'] ?></a></td>
+                            <td><?= $user['role'] ?></td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Alice</td>
-                            <td><a href="sip:alice@pabx.local">sip:alice@pabx.local</a></td>
-                            <td>Ingénieur réseau</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>John</td>
-                            <td><a href="sip:john@pabx.local">sip:john@pabx.local</a></td>
-                            <td>Technicien</td>
-                        </tr>
+                        <?php endforeach ?>  
                     </tbody>
                 </table>
             </div>
