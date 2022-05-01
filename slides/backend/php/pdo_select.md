@@ -1,7 +1,7 @@
 # PHP
 Lire des données: PDO
 
-Création d'un "query" SQL et traitement des résultats.
+Création d'une "query" SQL et traitement des résultats.
 
 ```php
 $pdo = new PDO('mysql:host=127.0.0.1;dbname=td', 'root', 'root');
